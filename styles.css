@@ -28,8 +28,9 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgb(177, 224, 235);
     color: black;
+    font-weight: bolder;
 }
   
 .topnav a.active {
@@ -39,7 +40,16 @@ body {
 
 .cbox {
     width: 600px;
-    border: 15px solid rgb(82, 82, 82);
+    border: 10px solid rgb(82, 82, 82);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    width: auto;
+}
+
+.cboxm {
+    width: 600px;
+    border: 5px solid rgb(82, 82, 82);
     padding: 50px;
     margin: 20px;
     border-radius: 15px;
@@ -51,6 +61,11 @@ body {
 }
 
 .nusar1slp1 {
+    border-radius: 15px;
+    text-align: center;
+}
+
+.nusam1p1 {
     border-radius: 15px;
     text-align: center;
 }
@@ -118,3 +133,4 @@ body {
     from {opacity: 0;}
     to {opacity:1 ;}
   }
+
