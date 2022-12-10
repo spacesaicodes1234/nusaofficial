@@ -4,6 +4,10 @@
     src: url(/space-age.regular.ttf);
 }
 
+iframe {
+    border-radius: 15px;
+}
+
 body {
     text-align: center;
     background-color: black;
