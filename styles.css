@@ -15,6 +15,11 @@ body {
     font-family: mainFont;
 }
 
+.navicons {
+    width:64px;
+    height:64px;
+}
+
 .topnav {
     background-color: #333;
     overflow: hidden;
